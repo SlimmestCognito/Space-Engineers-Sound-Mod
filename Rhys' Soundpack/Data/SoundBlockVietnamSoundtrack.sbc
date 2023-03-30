@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundCategories>
+    <SoundCategory>
+      <Id>
+        <TypeId>SoundCategoryDefinition</TypeId>
+        <SubtypeId>RhysSoundpackMod</SubtypeId>
+      </Id>
+      <Sounds>
+        <SoundDesc Id="VietnamTrack1" SoundName="'Nam Fortunate Son"  />
+        <SoundDesc Id="VietnamTrack2" SoundName="'Nam Going Up Country" />
+        <SoundDesc Id="VietnamTrack3" SoundName="'Nam Paint It Black" />
+        <SoundDesc Id="VietnamTrack4" SoundName="'Nam Sympathy For The Devil" />
+
+        <SoundDesc Id="SonicTrack1" SoundName="'Sonic 1 Boss" />
+        <SoundDesc Id="SonicTrack2" SoundName="'Sonic 2 Boss" />
+        <SoundDesc Id="SonicTrack3" SoundName="'Sonic Adventure Boss" />
+
+        <SoundDesc Id="Halo1" SoundName="'Halo Warthog Run" />
+        <SoundDesc Id="Valkyries" SoundName="'Ride Of The Valkyries" />
+
+
+        <SoundDesc Id="SFX1" SoundName="'Coffee Machine Ask" />
+        <SoundDesc Id="SFX2" SoundName="'Coffee Machine Make" />
+
+      </Sounds>
+    </SoundCategory>
+  </SoundCategories>
+
+ <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>VietnamTrack1</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\FortunateSon.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>VietnamTrack2</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\GoingUpCountry.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>VietnamTrack3</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\PaintItBlack.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>VietnamTrack4</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\SympathyForTheDevil.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SonicTrack1</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\S1-Boss1.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SonicTrack2</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\S2-Boss1.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SonicTrack3</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\SA-Boss1.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Halo1</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Halo3WarthogRun.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Valkyries</SubtypeId>
+      </Id>
+      <Category>Music</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\RideOfTheValkyries.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+
+
+
+
+
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SFX1</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\coffeemachine_idle.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SFX2</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\coffee_make_coffee.xwm</Start>
+        </Wave>
+      </Waves>
+      <StreamSound>true</StreamSound>
+    </Sound>
+
+  </Sounds>
+</Definitions>
+
+
+
+
